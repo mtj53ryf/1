@@ -1,0 +1,5 @@
+name=input("请输入姓名：")
+print("{}同学，学习Python，前途无量！".format(name))
+#print(name+"同学，学习Python，前途无量！")
+print("{}同学，学习Python，前途无量！".format(name[0]))
+print("{}同学，学习Python，前途无量！".format(name[1:]))
